@@ -31,7 +31,7 @@ const CartItem = ({ id, name, description, currentPrice, discount, originalPrice
             <h1 className={style.company_name}>{name}</h1>
             <p className={style.product_info}>{description}</p>
             <div className={style.price_row}>
-                <h3 className={style.current_price}>${currentPrice}</h3>
+                <p className={style.current_price}>${currentPrice}</p>
                 <p className={style.discount}>{discount}%</p>
             </div>
             <h4 className={style.original_price}>${originalPrice}</h4>
