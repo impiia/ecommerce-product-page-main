@@ -34,7 +34,7 @@ const CartItem = ({ id, name, description, currentPrice, discount, originalPrice
                 <p className={style.current_price}>${currentPrice}</p>
                 <p className={style.discount}>{discount}%</p>
             </div>
-            <h4 className={style.original_price}>${originalPrice}</h4>
+            <p className={style.original_price}>${originalPrice}</p>
             <div className={style.button_row}>
                 <div className={style.quantitySelector}>
                     <button className={style.decIncButton} onClick={handleDecreaseQuantity}><img src={IconMinus} alt='minus'></img></button>
